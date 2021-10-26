@@ -16,9 +16,9 @@ int main()
     int date [n] = {};
 
     FillArrayRandom (date, n);
-    PrintArray (date, n, " До сортировки", column );
+    PrintArray (date, n, " Р”Рѕ СЃРѕСЂС‚РёСЂРѕРІРєРё", column );
     FillArrayVibor  (date, n);
-    PrintArray (date, n, " После сортировки", column );
+    PrintArray (date, n, " РџРѕСЃР»Рµ СЃРѕСЂС‚РёСЂРѕРІРєРё", column );
 
     return 0;
     }
@@ -35,7 +35,7 @@ void FillArrayRandom (int date[], int size)
 
 void FillArrayVibor (int date[], int size)
     {
-    $m; printf ("\n Сортировка\n");
+    $m; printf ("\n РЎРѕСЂС‚РёСЂРѕРІРєР°\n");
 
     for (int i = 0; i < size; i++)
         {
