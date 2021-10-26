@@ -2,7 +2,7 @@
 #include "PrintArray.h"
 #include "checking the range.h"
 #include "Print Sorting Progress.h"
-using namespace std; //без этого не работает swap ????
+using namespace std; //Р±РµР· СЌС‚РѕРіРѕ РЅРµ СЂР°Р±РѕС‚Р°РµС‚ swap ????
 
 void FillArrayRandom (int date[], int size);
 void FillArrayVibor  (int date[], int size);
@@ -16,9 +16,9 @@ int main()
     int date [n] = {};
 
     FillArrayRandom (date, n);
-    PrintArray (date, n, " До сортировки", column );
+    PrintArray (date, n, " Р”Рѕ СЃРѕСЂС‚РёСЂРѕРІРєРё", column );
     FillArrayVibor  (date, n);
-    PrintArray (date, n, " После сортировки", column );
+    PrintArray (date, n, " РџРѕСЃР»Рµ СЃРѕСЂС‚РёСЂРѕРІРєРё", column );
     return 0;
     }
 
@@ -34,7 +34,7 @@ void FillArrayRandom (int date[], int size)
 
 void FillArrayVibor (int date[], int size)
     {
-    $m; printf ("\n Пузырьковая сортировка\n");
+    $m; printf ("\n РџСѓР·С‹СЂСЊРєРѕРІР°СЏ СЃРѕСЂС‚РёСЂРѕРІРєР°\n");
 
     for (int j = 0; j < size; j++)
         {
