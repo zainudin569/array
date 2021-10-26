@@ -6,6 +6,6 @@ int CheckIndex (int i, int size, const char func[])
 {
  if ((i >= 0) && (i < size)) return i;
 
- $sm printf ("%s: i = %d âûøåë çà ïðåäåëû äèàïàçîíà [%d, %d]\n", func, i, 0, size-1);
+ $sm printf ("%s: i = %d Ð²Ñ‹ÑˆÐµÐ» Ð·Ð° Ð¿Ñ€ÐµÐ´ÐµÐ»Ñ‹ Ð´Ð¸Ð°Ð¿Ð°Ð·Ð¾Ð½Ð° [%d, %d]\n", func, i, 0, size-1);
  return i;
 }
