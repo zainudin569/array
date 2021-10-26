@@ -8,6 +8,6 @@ int Min_num (const int date[], int start, int size)
         if (date [i] < date [n_min])
         n_min = i;
         }
-    //printf ("Ìèíèìàëüíîå çíà÷åíèå â ÿ÷åéêå [%d] ğàâíàÿ %d\n\n", n_min, date [n_min]);
+    //printf ("ĞœĞ¸Ğ½Ğ¸Ğ¼Ğ°Ğ»ÑŒĞ½Ğ¾Ğµ Ğ·Ğ½Ğ°Ñ‡ĞµĞ½Ğ¸Ğµ Ğ² ÑÑ‡ĞµĞ¹ĞºĞµ [%d] Ñ€Ğ°Ğ²Ğ½Ğ°Ñ %d\n\n", n_min, date [n_min]);
     return n_min;
     }
